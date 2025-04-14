@@ -12,7 +12,7 @@ export default function Home() {
           priority
         />
         <h1 className="text-3xl sm:text-5xl font-bold text-pink-700 text-center">
-          🎉 Happy Birthday, Ninaja! 🎂
+          🎉 Happy Birthday, Ninaja ! 🎂
         </h1>
         <p className="text-center text-lg sm:text-xl text-gray-700 max-w-xl">
           Wishing you a day filled with love, laughter, and all your favorite things. 
