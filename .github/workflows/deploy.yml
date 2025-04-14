@@ -19,7 +19,7 @@ jobs:
         with:
           host: 195.35.20.98
           username: root
-          key: ${{ secrets.PRIVATE_SSH_KEY }}
+          password: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           script: |
               ls
