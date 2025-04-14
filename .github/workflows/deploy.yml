@@ -15,14 +15,14 @@ jobs:
         uses: actions/checkout@v2
         
       - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@v1
+        uses: appleboy/ssh-action@v1.2.0
         with:
           host: 195.35.20.98
           username: root
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           script: |
-              echo "Deploying from GitHub Actions!"
+              ls
 
       # - name: Deploy to my EC2 instance
       #   uses: easingthemes/ssh-deploy@v2.1.5
