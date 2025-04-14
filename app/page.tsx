@@ -5,7 +5,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-pink-50 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-center">
         <Image
-          src="/birthday-cake.svg" // You can add a cake SVG/image in public/
+          src="/birthday-cake.svg"
           alt="Birthday Cake"
           width={120}
           height={120}
